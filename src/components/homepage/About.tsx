@@ -17,10 +17,10 @@ const About = () => {
   ];
 
   return (
-    <main className="min-h-screen bg-black px-8 py-4 flex flex-col">
+    <main className="min-h-screen bg-black flex flex-col px-8 py-15">
 
       {/* Section Heading */}
-      <h1 className="text-center text-amber-600 font-bold text-5xl sm:text-6xl">
+      <h1 className="text-center text-pink-600 font-bold text-5xl sm:text-6xl">
         About
       </h1>
       <span className="w-60 h-1 bg-white mx-auto mt-3 block rounded"></span>
