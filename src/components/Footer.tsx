@@ -14,10 +14,10 @@ const Footer = () => {
 
         {/* Center : Links */}
         <ul className='flex gap-6 text-sm'>
-          <li> <a href="#home" className='hover:text-amber-400 transition-colors'>Home</a></li>
-          <li> <a href="#features" className='hover:text-amber-400 transition-colors'>Features</a></li>
-          <li> <a href="#about" className='hover:text-amber-400 transition-colors'>About</a></li>
-          <li> <a href="#testimonials" className='hover:text-amber-400 transition-colors'>Testimonials</a></li>
+          <li> <a href="#home" className='hover:text-pink-400 transition-colors'>Home</a></li>
+          <li> <a href="#features" className='hover:text-pink-400 transition-colors'>Features</a></li>
+          <li> <a href="#about" className='hover:text-pink-400 transition-colors'>About</a></li>
+          <li> <a href="#testimonials" className='hover:text-pink-400 transition-colors'>Testimonials</a></li>
         </ul>
 
         {/* Right : Copyright */}
