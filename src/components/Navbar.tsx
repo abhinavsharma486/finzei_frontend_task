@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import { Menu, X } from "lucide-react";
+import Link from 'next/link';
 
 const Navbar = () => {
   // Links 
@@ -19,18 +20,18 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
 
         {/* Left : Logo */}
-        <a href="#home" className='text-2xl font-bold text-amber-400 hover:text-pink-400'>
+        <Link href="#home" className='text-2xl font-bold text-amber-400 hover:text-pink-400'>
           Finzei
-        </a>
+        </Link>
 
         {/* Desktop Right : Links */}
         <ul className='hidden md:flex space-x-6 text-white font-medium'>
           {
             links.map((link) => (
               <li key={link.href}>
-                <a href={link.href} className='hover:text-pink-400 transition'>
+                <Link href={link.href} className='hover:text-pink-400 transition'>
                   {link.label}
-                </a>
+                </Link>
               </li>
             ))
           }
@@ -53,13 +54,13 @@ const Navbar = () => {
               <ul className="flex flex-col space-y-4 py-4 px-6 text-gray-700 font-medium">
                 {links.map((link) => (
                   <li key={link.href}>
-                    <a
+                    <Link
                       href={link.href}
                       className="hover:text-pink-400 transition"
                       onClick={() => setOpen(false)}
                     >
                       {link.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
