@@ -21,7 +21,7 @@ const Testimonials = () => {
   ];
 
   return (
-    <section className="min-h-screen bg-gray-900 px-8 py-15 flex flex-col">
+    <section id='testimonials' className="min-h-screen bg-gray-900 px-8 py-15 flex flex-col">
       {/* Heading */}
       <h1 className='text-center text-amber-600 font-bold text-5xl sm:text-5xl md:text-5xl lg:text-6xl'>
         Testimonial

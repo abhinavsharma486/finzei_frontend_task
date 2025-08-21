@@ -17,7 +17,7 @@ const About = () => {
   ];
 
   return (
-    <main className="min-h-screen bg-black flex flex-col px-8 py-15">
+    <main id='about' className="min-h-screen bg-black flex flex-col px-8 py-15">
 
       {/* Section Heading */}
       <h1 className="text-center text-pink-600 font-bold text-5xl sm:text-6xl">

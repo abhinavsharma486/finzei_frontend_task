@@ -5,7 +5,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <main className="min-h-screen bg-black flex items-center justify-center px-8 py-15">
+    <main id='home' className="min-h-screen bg-black flex items-center justify-center px-8 py-15">
       <header className="flex flex-col md:flex-row items-center justify-center w-full max-w-7xl py-10 text-center lg:text-left">
 
         {/* Left Side: Text */}

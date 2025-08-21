@@ -23,7 +23,7 @@ const Features = () => {
   ];
 
   return (
-    <section className="min-h-screen bg-gray-900 flex flex-col px-8 py-15">
+    <section id='features' className="min-h-screen bg-gray-900 flex flex-col px-8 py-15">
       {/* Heading */}
       <h1 className='text-center text-amber-600 font-bold text-6xl'>
         Features
